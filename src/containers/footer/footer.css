@@ -1,0 +1,83 @@
+.haven__footer {
+    background: #f5f5f5;
+    width: 100%;
+    height: 388px;
+    padding: 69px 15rem 0;
+}
+.haven__footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-havenlogo {
+    width: 132px;
+    height: 43.69px;
+}
+
+.haven__footer-appstores {
+    display: grid;
+    margin-top: 36px;
+    gap: 12px;
+}
+
+.haven__footer-appstores img {
+    width: 141px;
+}
+
+.haven__footer-escrow h6 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 20px; */
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.haven__footer-escrow ul {
+    list-style: none;
+}
+
+.haven__footer-escrow li {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #484848;
+    margin-top: 16px;
+}
+
+#haven__footerline {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #CCCCCC;
+    margin-top: 50px;
+    margin-bottom: 36px;
+}
+
+#footer-location {
+    text-align: right;
+}
+
+.footer-terms {
+    display: flex;
+    gap: 36px;
+}
+
+.footer-lastline {
+    display: flex;
+    justify-content: space-between;
+    color: #484848;
+}
+
+a {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #484848;
+}

@@ -1,0 +1,86 @@
+.haven__contactless {
+    display: flex;
+    margin-top: 10rem;
+    padding-right: 20rem;
+}
+
+.haven__contactless img {
+    width: 55%;
+    height: auto;
+}
+
+.haven__comingsoontexts {
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+.haven__contactless button {
+    width: 204px;
+    padding: 0;
+    display: inline-flex;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    height: 52px;
+    background: #0D334D;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    /* margin: 0 3rem; */
+    cursor: pointer;
+    justify-content: space-between;
+    transition: 0.5s;
+    margin-top: 1px;
+}
+
+.haven__contactless button:hover {
+    background: #B49A40;
+}
+
+.haven__contactless button:hover .button-icon {
+    margin-right: -0.2rem;
+    transition: 0.5s;
+}
+
+.haven__contactless h1 {
+    font-family: var(--font-familyh1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #0D334D;
+    margin: 36px 0;
+}
+
+.haven__contactless p {
+    text-align: left;
+    margin-bottom: 36px;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    color: #414141;
+}
+
+.haven__comingsoon {
+    width: 151px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    padding: 0 22px;
+    display: inline-flex;
+    background: #FEEFBF;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #FABF01;
+    align-items: center;
+}

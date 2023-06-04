@@ -1,0 +1,91 @@
+.haven__header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+}
+
+.header__text {
+    font-family:var(--font-familyh1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    /* line-height: 48px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    color: #0D334D;
+}
+
+p {
+    font-family: var(--font-family);
+    font-style: normal;
+    /* font-weight: 450; */
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    width: auto;
+    text-align: center;
+    letter-spacing: 0.25px;
+    
+    /* icons */
+    
+    color: #414141;
+}
+
+.haven__header-appstore img {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+.haven__header-havenui img {
+    width: auto;
+    height: 391px;
+    /* left: 314px;
+    top: 421px; */
+}
+
+@media screen and (max-width: 900px) {
+    .header__text {
+        font-size: 36px;
+    }
+    p {
+        font-size: 16px;
+        width: auto;
+    }
+    .haven__header-havenui img {
+        width: auto;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__text {
+        font-size: 32px;
+    }
+    p {
+        font-size: 16px;
+        width: auto;
+    }
+    .haven__header-havenui img {
+        width: auto;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__text {
+        font-size: 32px;
+    }
+    p {
+        font-size: 14px;
+        width: auto;
+    }
+    .haven__header-havenui img {
+        width: auto;
+        height: 200px;
+    }
+}

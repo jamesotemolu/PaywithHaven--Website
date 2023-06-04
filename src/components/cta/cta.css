@@ -1,0 +1,115 @@
+.haven__aboutPage-hero {
+    padding: 5rem 15rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-header {
+    font-family: var(--font-familyh1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #0D334D;
+}
+
+.haven__hero-text {
+    margin-top: 85px;
+}
+
+.hero-text-p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    color: #414141;
+    text-align: left;
+    margin: 16px 0;
+}
+
+.haven__aboutPage-hero img {
+    width: 581px;
+    height: auto;
+}
+
+.haven__aboutPage-hero-button {
+    width: 204px;
+    padding: 0;
+    display: inline-flex;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    height: 52px;
+    background: #0D334D;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: 0.5s;
+    margin-top: 1px;
+}
+
+.haven__aboutPage-hero-button:hover {
+    background: #B49A40;
+}
+
+.haven__aboutPage-hero-button:hover .button-icon {
+    margin-right: -0.2rem;
+    transition: 0.5s;
+}
+
+.haven__aboutPage-oursolution {
+    background-color: #0D334D;
+    background-image: url(../../assets/headerbg.png);
+    color: var(--color-bg);
+    height: 900px;
+    padding: 5rem 15rem 0;
+}
+
+.haven__oursolution-container {
+    display: grid;
+    gap: 24px;
+}
+
+.haven__oursolution-container p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.haven__oursolution-container h4 {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px; 
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #FABF01;
+}
+
+.haven__oursolution-container h1 {
+    font-family: var(--font-familyh1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}

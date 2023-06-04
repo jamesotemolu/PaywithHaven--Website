@@ -1,0 +1,191 @@
+.haven__navbar {
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    padding: 2rem 10rem;
+}
+
+.haven__navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .haven_navbar-links .haven_navbar-links_container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+} */
+
+.haven__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.haven__navbar-links_logo img {
+    width: 121px;
+    height: 40.05px;
+}
+
+.haven__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.haven__navbar-download {
+    align-items: center;
+    /* width: 100%; */
+}
+
+.haven__navbar-links_container p,
+.haven__navbar-download p,
+.haven__navbar-menu_container p {
+    color: #414141;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.haven__navbar-download button,
+.haven__navbar-menu_container button {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    height: 52px;
+    background: #0D334D;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    padding: 24px 24px;
+    transition: 0.5s;
+    align-items: center;
+}
+
+
+
+.haven__navbar-download button:hover {
+    background: #B49A40;
+}
+
+.button-text,
+.button-icon {
+    /* display: inline-flex; */
+    align-items: center;
+}
+
+.haven__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.haven__navbar-menu svg {
+    cursor: pointer;
+}
+
+.haven__navbar-menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    text-align: end;
+    background: #f7f7f7;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    width: auto;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.haven__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.haven__navbar-menu_container-links-download {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .haven__navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .haven__navbar-links_container {
+        display: none;
+    }
+
+    .haven__navbar-menu {
+        display: flex;
+    }
+    .haven__navbar-menu_container-links-download {
+        display: block;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .haven__navbar {
+        padding: 2rem 4rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .haven__navbar-menu_container-links-download {
+        display: block;
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .haven__navbar {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .haven__navbar-download {
+        display: none;
+    }
+
+    .haven__navbar-menu_container {
+        top: 20px;
+    }
+
+    .haven__navbar-menu_container-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .haven__navbar-menu_container-links-download {
+        display: flex;
+        min-width: 150px;
+        margin-left: auto !important;
+        margin-right: auto !important; 
+        /* margin: auto;
+        justify-self: center; */
+        /* position: absolute; */
+        /* left: 50%;
+        transform: translateX(-50%); */
+    }
+
+    .download-text {
+        font-size: 14px;
+    }
+} 

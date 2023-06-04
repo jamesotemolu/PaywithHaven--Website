@@ -1,0 +1,122 @@
+#howitworks {
+    padding: 0 20rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.haven__brand-text {
+    margin-top: 1.2rem;
+}
+
+.haven__brand-button, 
+.haven__brand-button-mobile {
+    width: 204px;
+    padding: 0;
+    display: inline-flex;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    height: 52px;
+    background: #0D334D;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    justify-content: space-between;
+    transition: 0.5s;
+    margin-top: 1px;
+}
+
+.haven__brand-button-mobile {
+    visibility: hidden;
+}
+
+.haven__brand-button:hover {
+    background: #B49A40;
+}
+
+.haven__brand-button:hover .button-icon {
+    margin-right: -0.2rem;
+    transition: 0.5s;
+}
+
+.button-text,
+.button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    height: 100%;
+}
+
+.brand-text {
+    text-align: left;
+    padding: 12px 0;
+}
+
+.brand-header {
+    font-family: var(--font-familyh1);
+    color: #0D334D;
+    font-size: 36px;
+}
+
+.box-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box-row2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.8rem;
+}
+
+/* .haven__brand-step-containers {
+    display: flex;
+} */
+
+.step-box {
+    margin: 0.8rem;
+    margin-top: 0;
+    width: 346px;
+    height: 211px;
+    background: #F9F9F9;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.img-paylady,
+.img-rider {
+    width: 45px;
+    height: 46px;
+}
+
+.img-parcel {
+    width: 41px;
+    height: 55px;
+}
+
+.img-safebox {
+    width: auto;
+    height: 41px;
+    margin-top: 0.8rem;
+}
+ 
+.step-box p {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0.4rem;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+}
+
+.step-box h1 {
+    font-family: var(--font-familyh1);
+    font-size: 18px;
+    color: #0D334D;
+    margin-top: 1.5rem;
+    letter-spacing: 1.25px;
+}
+
